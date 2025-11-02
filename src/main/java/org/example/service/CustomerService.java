@@ -8,11 +8,18 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class CustomerService {
-    @Autowired
-    CustomerRepository customerRepository;
+//    @Autowired
+//    CustomerRepository customerRepository;
 
     public void addCustomer(CustomerDTO customer){
-
-
+//        customerRepository.save(
+//                new CustomerEntity(
+//                        customer.getId(),
+//                        customer.getName(),
+//                        customer.getPhone(),
+//                        customer.getAddress()
+//                )
+//        );
     }
 }
+
